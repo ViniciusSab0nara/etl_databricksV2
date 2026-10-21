@@ -9,7 +9,7 @@ Pipeline de engenharia de dados ponta a ponta construído com foco no processame
 O ecossistema foi projetado para simular o fluxo real de dados de uma empresa moderna de varejo digital:
 
 ```text
-[ Data Generator ] ──> [ AWS S3 (Raw JSON) ]
+[ Data Generator ] ──> [ Python (Raw JSON) ]
                                │
                                ▼
                     ┌─────────────────────┐
