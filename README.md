@@ -1,6 +1,6 @@
-# 🛒 E-Commerce End-to-End Data Pipeline: AWS S3 + Databricks + Power BI
+# E-Commerce End-to-End Data Pipeline: Ingestão Python + Databricks + Data Studio
 
-Pipeline de engenharia de dados ponta a ponta construído com foco no processamento de dados semiestruturados (JSON) de uma plataforma de e-commerce. O projeto abrange desde a simulação controlada de eventos e transações até a construção de um Lakehouse baseado na Arquitetura Medallion (Delta Lake) e modelagem dimensional Star Schema para consumo analítico no Power BI.
+Pipeline de engenharia de dados ponta a ponta construído com foco no processamento de dados semiestruturados (JSON) de uma plataforma de e-commerce. O projeto abrange desde a simulação controlada de eventos e transações até a construção de um Lakehouse baseado na Arquitetura Medallion (Delta Lake) e modelagem dimensional Star Schema para consumo analítico no Data Studio.
 
 ---
 
@@ -25,4 +25,4 @@ O ecossistema foi projetado para simular o fluxo real de dados de uma empresa mo
                     └─────────────────────┘
                                │
                                ▼
-                     [ POWER BI DASHBOARD ] (DirectQuery / Import via Databricks Connector)
+                     [ DataStudio DASHBOARD ] (Import via Databricks Connector)
